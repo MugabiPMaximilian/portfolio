@@ -1,0 +1,44 @@
+body{
+    font-family: Comic Sans MS;
+    color: white;
+    background-color: #1b262c;
+}
+
+.header{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: -0.5rem;
+    width: 100%;
+    position: fixed;
+}
+#nav-bar{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+li{
+    padding-right: 2rem;
+}
+#welcome-section{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #fdcb9e;
+      color: #1b262c;;
+  }
